@@ -1,0 +1,23 @@
+#include <string>
+#include <iostream>
+using namespace std;
+
+// Declaration
+struct Single_List
+{ //data structure
+	int Data; //data field
+	Single_List *Next; //link field
+};
+
+
+// Filling up with data
+void Make_Single_List(int n, Single_List *&Head)
+{
+	if (n > 0) {
+		Head = new Single_List(); // memory allocation	
+		cout << "Enter node value" << endl;
+		cin >> Head->Data;
+		Head->Next = NULL;
+		Make_Single_List(n - 1, Head->Next);
+	}
+}

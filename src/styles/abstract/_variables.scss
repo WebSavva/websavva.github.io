@@ -1,0 +1,33 @@
+//COLORS
+$primary-color: #7906b3;
+$secondary-color: #4b576d;
+$darkened-white-color: #f7f9fc;
+$white-color: #fff;
+
+//FONTS
+$display-font: "Changa One", cursive;
+$primary-font: "Ubuntu", sans-serif;
+
+//SHADOW VALUES MAP
+$shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+$shadow-default: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+$shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+  0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+  0 4px 6px -2px rgba(0, 0, 0, 0.05);
+$shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+  0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+$shadow-values: (
+  "sm": $shadow-sm,
+  "default": $shadow-default,
+  "md": $shadow-md,
+  "lg": $shadow-lg,
+  "xl": $shadow-xl,
+);
+
+//BREAKPOINTS
+$small-breakpoint: 600px;
+$md-breakpoint: 900px;
+$lg-breakpoint: 1200px;
+$xlg-breakpoint: 1800px;

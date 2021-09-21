@@ -1,0 +1,14 @@
+@import "./../../styles/module-bundle.scss";
+
+.code {
+  padding: 4rem 0;
+  background-color: var(--white-color);
+  &__content {
+    @extend %container;
+  }
+
+  &__heading {
+    @extend %section-heading;
+    margin-bottom: 2rem;
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "menuHome": {
+    "en": "Home",
+    "ru": "Главная"
+  },
+  "menuProjects": {
+    "en": "Projects",
+    "ru": "Проекты"
+  },
+  "heroHeading": {
+    "en": "Web-development is",
+    "ru": "Web-разработка - это"
+  },
+  "heroHeadingHighlight": {
+    "en": ["addictive", "exciting", "funny"],
+    "ru": ["увлекательно", "круто", "весело"]
+  },
+  "heroText": {
+    "en": "Hi, I'm Savva Prokofev, a junior frontend developer from Russia.Here is my personal portfolio website where you can find out more about me and my projects.",
+    "ru": "Привет, меня зовут Савва Прокофьев. Я начинающий frontend-разработчик. Это мой сайт-портфолио, где вы можете узнать больше обо мне и о моих проектах."
+  },
+  "principlesHeading": {
+    "en": "Principles",
+    "ru": "Правила"
+  },
+  "kissDetails": {
+    "en": "I always take advantage of code complexity reduction as long as it does not affect its quality.",
+    "ru": "Если есть возможность сделать код проще, я всегда стараюсь ею воспользоваться. При условии, что это не снизит качество кода."
+  },
+
+  "dryDetails": {
+    "en": "I'm aware of the fact that code duplication is evil, because it makes code unmaintainable consequently.",
+    "ru": "Я понимаю, что повторение кода - это не совсем хорошо по той причине, что он делает код сложно поддерживаемым в будущем."
+  },
+  "englishFirstDetails": {
+    "en": "Why would you need to write anything in Russian while you may well do that in English ?",
+    "ru": "Зачем писать на русском, когда все это можно сделать на английском ? Вед сам код пишется на английском."
+  },
+  "statsCourseHours": {
+    "en": "hours of courses",
+    "ru": "часов пройденных курсов"
+  },
+  "statsPassedCourses": {
+    "en": "passed courses",
+    "ru": "пройденных курсов"
+  },
+  "statsMadeProjects": {
+    "en": "pet-projects",
+    "ru": "готовых проектов"
+  },
+  "skillsHeading": {
+    "en": "Techologies I'm familiar with",
+    "ru": "Навыки"
+  },
+  "academicHeading": {
+    "en": "Academic Background",
+    "ru": "Образование"
+  },
+  "academicDescription": {
+    "en": [
+      "In 2021 I obtained a bachelor's degree at Bussiness Informatics at Saint-Petersburg State University. To put it simply, I was taught to work as a business analyst. The program's curriculum included a lot of courses from both programming and economic domains.",
+      "Along my studies I was lucky enough to try out different programming languages. The first program I wrote was a C++ program and afterwards I also slightly touched upon such languages as PHP, Java, MATLAB, R and SQL. Plus, throughout the whole studies there was a great emphasis on database projection.",
+      "Although I don't have any experience in commercial software development yet, I believe I do have enough knowledge and skills to find a solution for complex problems."
+    ],
+    "ru": [
+      "В 2021 я получил диплом бакалавра по направлениею Бизнес-Информатика в СПбГУ. Образовательная программа была достаточно обширная и включала курсы как по экономике, так и по информатике",
+      "Первую программу я написал на C++, а далее в процессе обучения познакомился с такими языками, как PHP, Java, MATLAB, R и SQL. Особое внимание уделялось проектированию БД и математическому моделированию.",
+      "Несмотря на отсутствие опыта коммерческой разработки, уверен, что обладаю достаточным количеством знаний и навыком для решения сложных задач."
+    ]
+  },
+  "favoritesHeader": {
+    "en": "Favorites",
+    "ru": "Примеры кода"
+  },
+  "connectHeader": {
+    "en": ["#Me", "at social networks"],
+    "ru": ["#Я", "в социальных сетях"]
+  },
+  "projectsHeader": {
+    "en": "Projects",
+    "ru": "Проекты"
+  },
+  "projects": {
+    "paintClone": {
+      "ru": [
+        "Paint Клон",
+        "Достаточно простое приложение, написаное полность на Vanilla JS. Изначально было сделано на основе одного туториала, но впоследствии было принято решение расширить функционал, сделав сайт полность адаптивным. В проекте используется Canvas API."
+      ],
+      "en": [
+        "Paint Clone",
+        "Pretty simple app written with Vanilla JS that allows users to draw any figures they want enabled by Canvas API. I got insipiration from a tutorial, but later there was made a decision to extend functionality by making the whole website fully responsive."
+      ]
+    },
+    "quoteGenerator": {
+      "ru": [
+        "Генератор Цитат",
+        "Приложение, использующее Random Quote API как источник цитат и написанное на чистом JavaScript. Также есть возможность запостить понравившуюся цитату в Твиттере."
+      ],
+      "en": [
+        "Quote Generator",
+        "Vanilla JS application that makes use of Random Quote API. In addition to that, it is possible to publish the quote that you find interesting or reasonating on Twitter."
+      ]
+    },
+
+    "calculator": {
+      "ru": [
+        "Калькулятор",
+        "Калькулятор, написанный на  JavaScript. Ничего особенного за исключением того, что сайт полностью адаптивен."
+      ],
+      "en": [
+        "Calculator",
+        "Simple calculator written in JavaScript. Nothing special except the fact that website is fully responsive."
+      ]
+    },
+    "las": {
+      "ru": [
+        "LAS",
+        "Мой первый сайт, написанный в 2020 году с помощью HTML, Sass и немного JS. Помимо этого, все стили написаны согласно BEM-нотации и следуют паттерну 7 in 1. Финальная версия была собрана с помощью Webpack как многостраничный сайт."
+      ],
+      "en": [
+        "LAS",
+        "My first website written in 2020 with HTML and Sass with a small portion of JavaScript added. The project styles heavily rely upon BEM notation and follows 7 in 1 Pattern. Apart from that, the final app code was bundled up with Webpack like a multipage website. "
+      ]
+    },
+    "clashGame": {
+      "ru": [
+        "Clash Игра",
+        "Первое приложение, написанное на Vue.js и представляющее собой обычную PvE игру. Наряду с Vue.js используется также Bootstrap для приемлемого дизайна."
+      ],
+      "en": [
+        "Clash Game",
+        "First app written in Vue. It represents just very primitive PvE game where a player needs to fight a monster. As far as technologies are concerned, the application also makes use of Bootstrap in order to make the website a bit nicier."
+      ]
+    },
+    "newsWebsite": {
+      "ru": [
+        "Новостной сайт",
+        "Шаблон для сайта новостей, написанный с помощью Sass и чистого JS. Стили написаны по BEM-нотации и следуют паттерну 7 in 1. Сложные интерактивные компоненты были написаны с нуля без использования библиотек, но по структуре приближены к библиотекам. Для написания слайдера использвались классы и наследование. Сайт полностью адаптивен."
+      ],
+      "en": [
+        "News Website",
+        "Complex HTML-template that is specifically designed for news media. Styles are written according to BEM-notation based upon 7 in 1 pattern, while such complex and interactive components like a carousels, a running line and a tab keeper are written in pure JS. OOP is commonly used to make the carousel more versatile depending on the context. In other words, carousels were built in library-like fashion. Fully responsive."
+      ]
+    },
+    "thesis": {
+      "ru": [
+        "Сайт для дипломной работы",
+        "Небольшое приложение, написанное для презентации дипломной работы. Фронтенд написан полностью на чистом JS, а бэкенд - на Python c использованием реляционной базы данных SQLite3. Клиентская часть приложения структурирована согласно MVC-паттерну и включает в себя такие библиотеки, как Raphael для SVG-карт и Chart.js для построения адаптивных графиков, а также Reveal.js для презентации. Статические файлы размещены на GithubPages, а сам API размещен на Heroku с поддержкой CORS-заголовков."
+      ],
+      "en": [
+        "Thesis website",
+        "The small app that is aimed at presenting my thesis in interactive and nice way with fronted written in pure JS and backend built with Python, repsectively. The client side is strutctured according to MVC pattern, while the backend makes use of SQLite3 database. Apart from that, SVG-based library Raphael is used to display the Russian map, whereas Chart.js is integrated in order to build responsive and interactive graphs. Presentation is written with Reveal.JS. Most notably, static files are stored at GithubPages, while API is deployed on Heroku with CORS headers support."
+      ]
+    },
+    "facebookClone": {
+      "ru": [
+        "Фэйсбук Клон",
+        "Приложениие, частично напоминающее Фейсбук по функционалу, написанное на Next.js. Аутентификация была сделана с помощью NextAuth.js через Вконтакте API. Любой пользователь может размещать посты с различными медиа-файлами. Все медиа-файлы, загруженные пользователями, хранятся на Cloudinary. Вдобавок иcпользуется Socket.IO для того, чтобы отоброжать только что опубликованные посты в режиме реального времени. MongoDB также используется  для хранения пользовательских данных"
+      ],
+      "en": [
+        "Facebook Clone",
+        "Facebook-like SPA that is written with Next.js. The authentication is implemented by NextAuth.js through VK API. User can publish posts with different media files attached. All media files uploaded by users are stored in Cloudinary. Socket.io is used to notify about  newly published posts in real time. Lazy loading is realized as a custom hook. MongoDB is also integrated into the project in order to store all users data."
+      ]
+    },
+    "wShop": {
+      "ru": [
+        "WShop",
+        "Одностраничный интернет-магазин, написанный на React, React Router,Redux и Bootstrap. Фронтенд полностью написан на TypeScript, в то же время серверная часть написана на Express.js и Mongoose в соответствии с  MVC-паттерном. Главные фичи:JSON WebToken аутентификация, Paypal оплата, возможность выставлять рейтинг товарам, пагинация, панель админа, валидация форм и покупная корзина.",
+        "Для воспроизведения тестовой оплаты можно использовать следующие данные (почтовый ящик:sb-hvpbt7526215@personal.example.com -- пароль:Qwerty12345#), а для того, чтобы получить доступ к админной панели, необходимо войти на сайт по почтовому адресу admin@example.com с паролем 12345Test@"
+      ],
+      "en": [
+        "WShop",
+        "E-commerce SPA built with React, React Router,Redux and Bootstrap. Fronted part of the app is written completely in TypeScript, while backend is made with Expres.js and Mongoose in accordance to MVC-pattern. The main features are as follows: JSON WebToken authentication, Paypal payment, ability to rate products, pagination, admin panel, form validation and shopping cart.",
+        "To make a payment you can use the following credentials(email:sb-hvpbt7526215@personal.example.com -- password:Qwerty12345#) and in order to check out the admin page you would have to login as admin@example.com with password 12345Test@"
+      ]
+    },
+    "portfolio": {
+      "ru": [
+        "Сайт-портофолио",
+        "Вы сейчас находитесь на этом сайте \u263A. Данный сайт полностью написан на React c использованием Sass, а также некоторых других React-библиотек для анимации."
+      ],
+      "en": [
+        "Portfolio",
+        "You're currently looking at this website \u263A. It is written fully in React with Sass used for styling as well as other fancy animation libraries."
+      ]
+    }
+  }
+}

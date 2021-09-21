@@ -1,0 +1,14 @@
+@import "./../../../styles/module-bundle.scss";
+
+.bar {
+  position: relative;
+  border-radius: 10px;
+  &__inner {
+    @include shadowed(md);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: inherit;
+  }
+}

@@ -1,0 +1,90 @@
+@import "../../styles/module-bundle.scss";
+
+.header {
+  @include shadowed(md);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 0;
+  height: var(--header--height);
+  background-color: var(--white-color);
+  z-index: 100;
+  transition: all 0.3s;
+  @media only screen and (max-width: 420px) {
+    padding: 0.5rem 0;
+  }
+  &__content {
+    @extend %container;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media only screen and (max-width: 420px) {
+      flex-direction: column;
+      justify-content: flex-start;
+      padding: 0.5rem 0;
+    }
+  }
+  &__logo {
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: $display-font;
+    letter-spacing: 2px;
+    color: var(--primary-color);
+    @include respondMedia(sm) {
+      font-size: 2.5rem;
+    }
+  }
+
+  &__nav {
+    font-size: 1.7rem;
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-weight: 500;
+    @include respondMedia(sm) {
+      font-size: 1.4rem;
+    }
+    li {
+      text-transform: capitalize;
+      a {
+        text-decoration: none;
+        font-size: inherit;
+        font-weight: inherit;
+        color: inherit;
+      }
+    }
+  }
+
+  &__icon {
+    font-size: 2.3rem;
+    @include respondMedia(sm) {
+      font-size: 2rem;
+    }
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  &__lang-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    align-items: center;
+
+    & > * {
+      color: var(--secondary-color);
+    }
+
+    span {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+    }
+  }
+
+  &__mode-btn {
+    color: var(--mode-btn-color);
+  }
+}

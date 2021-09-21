@@ -1,0 +1,9 @@
+%container {
+  margin: 0 auto;
+  width: 110rem;
+  @include respondMedia(lg) {
+    width: 100%;
+    margin: 0;
+    padding: 0 3rem;
+  }
+}

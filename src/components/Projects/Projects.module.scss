@@ -1,0 +1,55 @@
+@import "./../../styles/module-bundle.scss";
+
+.projects {
+  padding: 5rem 0;
+  background-color: var(--white-color);
+  &__head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+    transition: opacity 200ms;
+    &:hover {
+      opacity: 1;
+    }
+    svg {
+      font-size: 3rem;
+      color: var(--secondary-color);
+    }
+  }
+
+  &__show {
+    color: var(--secondary-color);
+    margin: 1rem auto;
+    display: block;
+    svg {
+      font-size: 5rem;
+    }
+  }
+
+  &__heading {
+    @extend %section-heading;
+    margin-bottom: 0;
+  }
+  &__content {
+    @extend %container;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-gap: 2rem;
+    @include respondMedia(sm) {
+      grid-row-gap: 2rem;
+      grid-column-gap: 0;
+    }
+    & > * {
+      flex: 0 0 30%;
+      margin: 3rem 0;
+    }
+  }
+}

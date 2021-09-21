@@ -1,0 +1,28 @@
+@import "./../../styles/module-bundle.scss";
+
+.connected {
+  background-color: var(--tertiary-color);
+  padding: 5rem 0;
+  &__heading {
+    @extend %section-heading;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+    span {
+      margin-right: 1rem;
+      color: var(--primary-color);
+    }
+  }
+  &__content {
+    @extend %container;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    a {
+      font-size: 8rem;
+      color: var(--primary-color);
+      @include respondMedia(sm) {
+        font-size: 5rem;
+      }
+    }
+  }
+}

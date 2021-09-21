@@ -1,0 +1,198 @@
+@import "./../../styles/module-bundle.scss";
+
+$subtle-border: 1px solid var(--vs-border-color);
+$rounded: 10px;
+
+@mixin borderedTab($color, $height, $top: 100%) {
+  position: relative;
+  z-index: 1;
+  &::after {
+    @include pseudoSetup;
+    top: $top;
+    left: 0;
+    width: 100%;
+    height: $height;
+    background-color: $color;
+    z-index: 5;
+    @include respondMedia(sm) {
+      top: 0;
+    }
+  }
+}
+
+.code-window {
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  @include shadowed(md);
+  border-radius: 10px;
+  border: $subtle-border;
+  width: 90%;
+  margin: 0 auto;
+  @include respondMedia(md) {
+    width: 100%;
+  }
+  &__head,
+  &__bottom {
+    font-size: 1.3rem;
+    font-weight: 200;
+    color: var(--vs-text-secondary-color);
+    padding: 0.5rem 1rem;
+    & * {
+      font-weight: inherit;
+    }
+  }
+
+  &__head,
+  &__content {
+    display: flex;
+    & > *:last-child {
+      flex: 1;
+    }
+  }
+
+  &__head {
+    text-transform: uppercase;
+    border-bottom: $subtle-border;
+    background-color: var(--vs-primary-color);
+    border-top-left-radius: $rounded;
+    border-top-right-radius: $rounded;
+  }
+
+  &__manage {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    span {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      &:first-child {
+        background-color: #ff605c;
+      }
+      &:nth-child(2n) {
+        background-color: #ffbd44;
+      }
+      &:last-child {
+        background-color: #00ca4e;
+      }
+    }
+  }
+
+  &__heading {
+    flex: 1;
+    text-align: center;
+  }
+
+  &__bottom {
+    background-color: var(--vs-secondary-color);
+    display: flex;
+    gap: 0.5rem;
+    border-top: $subtle-border;
+    border-bottom-left-radius: $rounded;
+    border-bottom-right-radius: $rounded;
+    text-transform: lowercase;
+  }
+
+  &__display {
+    background-color: var(--vs-primary-color);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    overflow: hidden;
+  }
+
+  &__tabs {
+    margin-top: 1px;
+    background-color: var(--vs-secondary-color);
+    display: flex;
+    border: $subtle-border;
+    @include customScrollbar;
+    &::-webkit-scrollbar {
+      height: 6px;
+      background-color: transparent;
+    }
+
+    @include respondMedia(sm) {
+      overflow-y: auto;
+      margin-top: 2px;
+    }
+  }
+
+  &__tab {
+    width: min-content;
+    padding: 0.75rem 1.5rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    border-right: $subtle-border;
+    position: relative;
+    font-size: 1.4rem;
+    transition: all 0s;
+    @include respondMedia(sm) {
+      padding: 0.5rem 1rem;
+      font-size: 1.2rem;
+      &:last-child {
+        margin-right: 3rem;
+      }
+    }
+    & > * {
+      transition: all 0s;
+      color: var(--vs-text-secondary-color);
+    }
+
+    &--active,
+    &:hover {
+      background-color: var(--vs-primary-color);
+      @include borderedTab(var(--vs-primary-color), 2px);
+      transition: all 0s;
+      & > * {
+        transition: all 0s;
+        color: var(--vs-text-primary-color);
+      }
+    }
+
+    &--active {
+      border-top: 1px solid var(--primary-color);
+    }
+  }
+
+  &__code-wrapper {
+    overflow: auto;
+    height: 50rem;
+    @include customScrollbar;
+  }
+
+  &__code {
+    font-size: 1.7rem !important;
+    margin: 0 !important;
+    padding: 1rem 1rem 2rem 1rem !important;
+    background-color: var(--vs-primary-color) !important;
+    @include respondMedia(md) {
+      font-size: 1.4rem !important;
+      min-height: 100%;
+    }
+    & * {
+      background-color: var(--vs-primary-color) !important;
+    }
+  }
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem;
+  background-color: var(--vs-secondary-color);
+  gap: 1.5rem;
+  border-right: $subtle-border;
+  @include respondMedia(sm) {
+    display: none;
+  }
+  &__icon {
+    font-size: 2.2rem;
+    color: var(--vs-text-secondary-color);
+    &--pushing {
+      margin-bottom: auto;
+    }
+  }
+}

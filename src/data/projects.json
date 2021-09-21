@@ -1,0 +1,78 @@
+[
+  {
+    "name": "paintClone",
+    "githubLink": "https://github.com/WebSavva/paint-clone",
+    "link": "https://websavva.github.io/paint-clone/",
+    "complexity": 55,
+    "techIconNames": ["Html5", "Css3", "Javascript"]
+  },
+  {
+    "name": "quoteGenerator",
+    "githubLink": "https://github.com/WebSavva/quote-generator",
+    "link": "https://websavva.github.io/quote-generator/",
+    "complexity": 40,
+    "techIconNames": ["Html5", "Css3", "Javascript"]
+  },
+  {
+    "name": "facebookClone",
+    "githubLink": "https://github.com/WebSavva/facebook-clone",
+    "link": "https://fb-clone-websavva.herokuapp.com/",
+    "complexity": 85,
+    "techIconNames": ["React", "NextDotJs", "Mongodb", "SocketDotIo", "Vk"]
+  },
+  {
+    "name": "wShop",
+    "githubLink": "https://github.com/WebSavva/wshop",
+    "link": "https://wshop-websavva.herokuapp.com/",
+    "complexity": 90,
+    "techIconNames": [
+      "React",
+      "Reactrouter",
+      "Typescript",
+      "NodeDotJs",
+      "Mongodb",
+      "Bootstrap"
+    ]
+  },
+  {
+    "name": "las",
+    "githubLink": "https://github.com/WebSavva/las",
+    "link": "https://websavva.github.io/las/",
+    "complexity": 65,
+    "techIconNames": ["Html5", "Sass", "Webpack"]
+  },
+  {
+    "name": "newsWebsite",
+    "githubLink": "https://github.com/WebSavva/news",
+    "link": "https://websavva.github.io/news/",
+    "complexity": 77,
+    "techIconNames": ["Html5", "Sass", "Javascript", "Webpack"]
+  },
+  {
+    "name": "thesis",
+    "githubLink": "https://github.com/WebSavva/thesis",
+    "link": "https://websavva.github.io/thesis/",
+    "complexity": 74,
+    "techIconNames": ["Html5", "Css3", "Javascript", "Webpack", "Flask"]
+  },
+  {
+    "name": "clashGame",
+    "githubLink": "https://github.com/WebSavva/vue-clash-game",
+    "link": "https://websavva.github.io/vue-clash-game",
+    "complexity": 50,
+    "techIconNames": ["Html5", "Bootstrap", "VueDotJs"]
+  },
+  {
+    "name": "calculator",
+    "githubLink": "https://github.com/WebSavva/calculator",
+    "link": "https://websavva.github.io/calculator",
+    "complexity": 41,
+    "techIconNames": ["Html5", "Css3", "Javascript"]
+  },
+  {
+    "name": "portfolio",
+    "githubLink": "https://github.com/WebSavva/websavva.gitbub.io",
+    "complexity": 70,
+    "techIconNames": ["Sass", "React", "Webpack"]
+  }
+]

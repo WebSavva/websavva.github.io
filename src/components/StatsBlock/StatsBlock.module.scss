@@ -1,0 +1,51 @@
+@import "./../../styles/module-bundle.scss";
+
+.stats {
+  background-color: var(--tertiary-color);
+  padding: 5rem 0;
+  @include respondMedia(sm) {
+    padding: 3.5rem;
+  }
+  &__content {
+    @extend %container;
+    @include shadowed(lg);
+    display: flex;
+    border-top: 3.5px solid var(--primary-color);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    @include respondMedia(lg) {
+      width: 90%;
+      margin: 0 auto;
+      padding: 0;
+    }
+    @include respondMedia(sm) {
+      flex-direction: column;
+    }
+  }
+
+  &__card {
+    flex: 1;
+    background-color: var(--white-color);
+    padding: 2.5rem;
+    &:not(:last-child) {
+      border-right: 1px solid rgba(var(--raw-alt-secondary-color), 0.3);
+      @include respondMedia(sm) {
+        border-right: none;
+        border-bottom: 1px solid rgba(var(--raw-alt-secondary-color), 0.3);
+      }
+    }
+  }
+
+  &__heading {
+    color: var(--secondary-color);
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    @include respondMedia(sm) {
+      font-size: 2.5rem;
+    }
+  }
+
+  &__info {
+    @extend %lead;
+  }
+}

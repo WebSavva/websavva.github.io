@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Vue",
+    "knowledgeLevel": 52
+  },
+  {
+    "name": "Bootstrap",
+    "knowledgeLevel": 86
+  },
+  {
+    "name": "Node.js",
+    "knowledgeLevel": 68
+  },
+  {
+    "name": "NPM",
+    "knowledgeLevel": 64
+  },
+  {
+    "name": "React",
+    "knowledgeLevel": 79
+  },
+  {
+    "name": "Redux",
+    "knowledgeLevel": 75
+  },
+  {
+    "name": "TailwindCSS",
+    "knowledgeLevel": 68
+  },
+  {
+    "name": "Next.js",
+    "knowledgeLevel": 71
+  },
+  {
+    "name": "Python",
+    "knowledgeLevel": 44
+  },
+  {
+    "name": "TypeScript",
+    "knowledgeLevel": 74
+  },
+  {
+    "name": "JavaScript",
+    "knowledgeLevel": 93
+  },
+  {
+    "name": "Sass",
+    "knowledgeLevel": 84
+  },
+  {
+    "name": "R",
+    "knowledgeLevel": 30
+  },
+  {
+    "name": "Java",
+    "knowledgeLevel": 22
+  },
+  {
+    "name": "C++",
+    "knowledgeLevel": 41
+  },
+  {
+    "name": "Webpack",
+    "knowledgeLevel": 72
+  },
+  {
+    "name": "MATLAB",
+    "knowledgeLevel": 46
+  },
+  {
+    "name": "Heroku",
+    "knowledgeLevel": 52
+  },
+  {
+    "name": "HTML",
+    "knowledgeLevel": 84
+  },
+  {
+    "name": "Git",
+    "knowledgeLevel": 76
+  },
+  {
+    "name": "CSS",
+    "knowledgeLevel": 83
+  },
+  {
+    "name": "Bash",
+    "knowledgeLevel": 48
+  }
+]

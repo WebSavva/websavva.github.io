@@ -1,0 +1,46 @@
+@import "./../../styles/module-bundle.scss";
+
+.skills {
+  background-color: var(--white-color);
+  padding: 5rem 0;
+  &__heading {
+    @extend %section-heading;
+  }
+
+  &__content {
+    @extend %container;
+    @include shadowed(md);
+    border-radius: 5px;
+    background-color: var(--tertiary-color);
+    padding: 4rem;
+    width: 80rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    @include respondMedia(lg) {
+      width: 70%;
+      margin: 0 auto;
+    }
+    @include respondMedia(sm) {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+  &__show-btn {
+    align-self: center;
+    margin-top: 2rem;
+    color: var(--secondary-color);
+    cursor: pointer;
+    transition: all 0.5s;
+    &:hover {
+      transform: translateY(5px);
+    }
+    &:active {
+      transform: translateY(2px);
+    }
+  }
+
+  &__show-icon {
+    font-size: 3rem;
+  }
+}

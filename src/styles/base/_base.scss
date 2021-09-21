@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Ubuntu:wght@200;300;400;500;700&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --mode-btn-color: rgb(252, 181, 49);
+  --primary-color: #2867f0;
+  --secondary-color: #4b576d;
+  --alt-secondary-color: #90a0bb;
+  --tertiary-color: #f7f9fc;
+  --white-color: #fff;
+  --header--height: 7.5rem;
+
+  --raw-alt-secondary-color: 144, 160, 187;
+
+  --vs-primary-color: #ffffff;
+  --vs-secondary-color: #f7f9fc;
+  --vs-text-primary-color: #646466;
+  --vs-text-secondary-color: #a0aab3;
+  --vs-border-color: #eaeef2;
+  --vs--active-border-color: var(--primary-color);
+}
+
+.dark-theme {
+  --primary-color: #ffff55;
+  --secondary-color: rgb(238, 237, 237);
+  --alt-secondary-color: rgb(196, 196, 196);
+  --tertiary-color: #363e4d;
+  --white-color: #4b576d;
+
+  --raw-alt-secondary-color: 196, 196, 196;
+
+  --vs-primary-color: #232a2f;
+  --vs-secondary-color: #1a2023;
+  --vs-text-primary-color: #707a84;
+  --vs-text-secondary-color: #575f66;
+  --vs-border-color: #0a0d0e;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background: unset;
+  color: inherit;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  font-size: 1.4rem;
+  font-family: $primary-font;
+  overflow-x: hidden;
+  @include customScrollbar;
+}
