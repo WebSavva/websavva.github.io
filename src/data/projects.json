@@ -14,27 +14,6 @@
     "techIconNames": ["Html5", "Css3", "Javascript"]
   },
   {
-    "name": "facebookClone",
-    "githubLink": "https://github.com/WebSavva/facebook-clone",
-    "link": "https://fb-clone-websavva.herokuapp.com/",
-    "complexity": 85,
-    "techIconNames": ["React", "NextDotJs", "Mongodb", "SocketDotIo", "Vk"]
-  },
-  {
-    "name": "wShop",
-    "githubLink": "https://github.com/WebSavva/wshop",
-    "link": "https://wshop-websavva.herokuapp.com/",
-    "complexity": 90,
-    "techIconNames": [
-      "React",
-      "Reactrouter",
-      "Typescript",
-      "NodeDotJs",
-      "Mongodb",
-      "Bootstrap"
-    ]
-  },
-  {
     "name": "las",
     "githubLink": "https://github.com/WebSavva/las",
     "link": "https://websavva.github.io/las/",

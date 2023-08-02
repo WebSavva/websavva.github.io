@@ -35,7 +35,7 @@ module.exports = {
       meta: {
         viewport: "width=device-width, initial-scale=1.0",
         description: "Savva Prokofev Personal Portfolio Website",
-        keywords: "Frontend, Junior Frontend Developer, Portfolio, WebSavva",
+        keywords: "Frontend, Middle Frontend Developer, Portfolio, WebSavva",
       },
     }),
     new MiniCssExtractPlugin({

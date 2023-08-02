@@ -16,8 +16,8 @@
     "ru": ["увлекательно", "круто", "весело"]
   },
   "heroText": {
-    "en": "Hi, I'm Savva Prokofev, a junior frontend developer from Russia.Here is my personal portfolio website where you can find out more about me and my projects.",
-    "ru": "Привет, меня зовут Савва Прокофьев. Я начинающий frontend-разработчик. Это мой сайт-портфолио, где вы можете узнать больше обо мне и о моих проектах."
+    "en": "Hi, I'm Savva Prokofev, a middle frontend developer from Russia.Here is my personal portfolio website where you can find out more about me and my projects.",
+    "ru": "Привет, меня зовут Савва Прокофьев. Я опытный frontend-разработчик. Это мой сайт-портфолио, где вы можете узнать больше обо мне и о моих проектах."
   },
   "principlesHeading": {
     "en": "Principles",
@@ -60,12 +60,12 @@
     "en": [
       "In 2021 I obtained a bachelor's degree at Bussiness Informatics at Saint-Petersburg State University. To put it simply, I was taught to work as a business analyst. The program's curriculum included a lot of courses from both programming and economic domains.",
       "Along my studies I was lucky enough to try out different programming languages. The first program I wrote was a C++ program and afterwards I also slightly touched upon such languages as PHP, Java, MATLAB, R and SQL. Plus, throughout the whole studies there was a great emphasis on database projection.",
-      "Although I don't have any experience in commercial software development yet, I believe I do have enough knowledge and skills to find a solution for complex problems."
+      "Upon my graduation, I landed my first job at Studwork. So I've been working there for 2 years as a frontend engineer specialising in Nuxt apps development."
     ],
     "ru": [
       "В 2021 я получил диплом бакалавра по направлениею Бизнес-Информатика в СПбГУ. Образовательная программа была достаточно обширная и включала курсы как по экономике, так и по информатике",
       "Первую программу я написал на C++, а далее в процессе обучения познакомился с такими языками, как PHP, Java, MATLAB, R и SQL. Особое внимание уделялось проектированию БД и математическому моделированию.",
-      "Несмотря на отсутствие опыта коммерческой разработки, уверен, что обладаю достаточным количеством знаний и навыком для решения сложных задач."
+      "После окончания университета, полчил должность фронтентд-разработчика в компании Студворк, где уже в течение двух лет занимаюсь развитием Nuxt-приложения."
     ]
   },
   "favoritesHeader": {

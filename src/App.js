@@ -21,7 +21,6 @@ const App = () => {
         <AcademicBlock />
         <CodeBlock />
         <Projects />
-        <Connect />
       </Layout>
     </GlobalProvider>
   );
